@@ -25,16 +25,18 @@ console.log (customerFirstName);
 console.log (streetAddress);
 
 //a customer booked 2 plane seats, remove 2 seats from the available seats variable
-
+availablePlaneSeats = availablePlaneSeats -2;
+console.log(availablePlaneSeats);
 
 //impulse candy bar purchase, add 2.15 to the grocery total
-//costOfGroceries = costOfGroceries + 2.15;
+costOfGroceries = costOfGroceries + 2.15;
 
 
 //birth certificate was printed incorrectly, change the middle initial to something else
 
 
 //the season has changed, update the hot outside variable to be opposite of what it was
+isHotOutside = !true;
 
 
 //create a new variable called full name using the customer's first name, the middle initial, and a last name of your choice
